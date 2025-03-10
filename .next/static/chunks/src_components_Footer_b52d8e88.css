@@ -1,0 +1,11 @@
+/* [project]/src/components/Footer.css [app-client] (css) */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px 2px #0ff;
+}
+
+/*# sourceMappingURL=src_components_Footer_b52d8e88.css.map*/

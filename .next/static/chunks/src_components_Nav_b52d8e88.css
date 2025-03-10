@@ -1,0 +1,31 @@
+/* [project]/src/components/Nav.css [app-client] (css) */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 2px 2px 7px #0ff;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  height: 20px;
+}
+
+.h1 {
+  display: flex;
+  width: 50px;
+  flex-direction: column;
+  justify-content: center;
+  height: 45%;
+}
+
+/*# sourceMappingURL=src_components_Nav_b52d8e88.css.map*/

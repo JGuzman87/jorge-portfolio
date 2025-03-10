@@ -10,6 +10,9 @@ const Nav = () => {
           <div className=" ring-offset-base-100 w-17 rounded-full ring ring-offset-0">
             <img src="/IMG_1913.jpeg" alt="profile image" />
           </div>
+    
+            <h1>Jorge Guzman</h1>
+          
         </div>
         <ul className="ul-container">
           <li>

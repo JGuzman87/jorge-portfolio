@@ -3,8 +3,14 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 1rem;
-box-shadow: 5px 5px 4px;
+box-shadow: 2px 2px 7px cyan;
 
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .ul-container {
@@ -12,5 +18,13 @@ display: flex;
 justify-content: flex-end;
 gap: 50px;
 height: 20px;
+}
+
+.h1 {
+    display: flex;
+    width: 50;
+    flex-direction: column;
+    justify-content: center;
+    height: 45%;
 }
 
