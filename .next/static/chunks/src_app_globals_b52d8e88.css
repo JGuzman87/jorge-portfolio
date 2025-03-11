@@ -3204,6 +3204,16 @@ textarea {
   margin: auto;
 }
 
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+}
+
 @layer base {
   :where(:root), :root:has(input.theme-controller[value="light"]:checked), [data-theme="light"] {
     color-scheme: light;
