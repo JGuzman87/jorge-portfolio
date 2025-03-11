@@ -3330,6 +3330,22 @@ textarea {
   margin: auto;
 }
 
+@media screen and (width <= 768px) {
+  body {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form, .resume-container, .aboutme-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  form input, textarea {
+    width: 100%;
+  }
+}
+
 @layer base {
   :where(:root), :root:has(input.theme-controller[value="light"]:checked), [data-theme="light"] {
     color-scheme: light;

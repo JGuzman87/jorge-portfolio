@@ -56,3 +56,19 @@ textarea {
     width: 50%;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .form, .resume-container, .aboutme-card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    form input, textarea {
+        width: 100%; /* Full width input fields */
+    }
+}
