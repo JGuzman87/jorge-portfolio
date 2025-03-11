@@ -1,13 +1,28 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import React from "react";
 
 const Contact = () => {
 
+
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [comment, setComment] = useState('');
+
+  
+    useEffect(() => {
+      
+      if (email.includes('@')) {
+        console.log("not a valid email");
+      } else if(name !== '') {
+        console.log("a name is being provided");
+      } else if(comment.length === 5) {
+        console.log("a comment is being typed");
+      }
+      
+    }, [comment, email, name]);
+
   return (
     <form className="form shadow-lg shadow-cyan-500/50">
       <label className="label-floating" htmlFor="email">

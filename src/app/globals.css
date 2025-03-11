@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-    themes: light --default, dark --prefersdark, synthwave;
+    themes: all;
 };
 
 
@@ -12,7 +12,7 @@ body {
    height: 100vh;
 }
 
-input {
+form input {
     width: 75%;
     height: 10%;
     padding: 1rem;
