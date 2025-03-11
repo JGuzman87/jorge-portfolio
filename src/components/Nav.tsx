@@ -4,7 +4,7 @@ import './Nav.css';
 
 const Nav = () => {
 
-  const navItems = ['/', 'contact', 'portfolio', 'resume']
+  const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
     <div>
       <nav className="nav-container">
