@@ -3,6 +3,8 @@ import Link from "next/link";
 import './Nav.css';
 
 const Nav = () => {
+
+  const navItems = ['/', 'contact', 'portfolio', 'resume']
   return (
     <div>
       <nav className="nav-container">
@@ -15,18 +17,9 @@ const Nav = () => {
           
         </div>
         <ul className="ul-container">
-          <li>
-            <Link href={"/"}>About Me</Link>
-          </li>
-          <li>
-            <Link href={"/contact"}>Contact</Link>
-          </li>
-          <li>
-            <Link href={"/portfolio"}>Portfolio</Link>
-          </li>
-          <li>
-            <Link href={"/resume"}>Resume</Link>
-          </li>
+
+          {navItems.map((navItem)=> <Link key={navItem} href={navItem}>{navItem.toUpperCase()}</Link>)}
+        
           
             <label className="swap swap-rotate">
   {/* this hidden checkbox controls the state */}

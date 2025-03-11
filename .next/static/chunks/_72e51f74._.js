@@ -19,10 +19,23 @@ const Contact = ()=>{
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [comment, setComment] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
-    const useEffect;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Contact.useEffect": ()=>{
+            if (email.includes('@')) {
+                console.log("not a valid email");
+            } else if (name !== '') {
+                console.log("a name is being provided");
+            } else if (comment.length === 5) {
+                console.log("a comment is being typed");
+            }
+        }
+    }["Contact.useEffect"], [
+        comment,
+        email,
+        name
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-        style: "",
-        className: `form shadow-lg shadow-cyan-500/50`,
+        className: "form shadow-lg shadow-cyan-500/50",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                 className: "label-floating",
@@ -30,7 +43,7 @@ const Contact = ()=>{
                 children: "Email:"
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -41,7 +54,7 @@ const Contact = ()=>{
                 onChange: (e)=>setEmail(e.target.value)
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 32,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -49,7 +62,7 @@ const Contact = ()=>{
                 children: "Name"
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 39,
+                lineNumber: 38,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -60,7 +73,7 @@ const Contact = ()=>{
                 onChange: (e)=>setName(e.target.value)
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -68,7 +81,7 @@ const Contact = ()=>{
                 children: "Comments"
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -78,7 +91,7 @@ const Contact = ()=>{
                 onChange: (e)=>setComment(e.target.value)
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -90,17 +103,17 @@ const Contact = ()=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 43,
+                lineNumber: 42,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/contact/page.tsx",
-        lineNumber: 28,
+        lineNumber: 27,
         columnNumber: 5
     }, this);
 };
-_s(Contact, "XXFuFch4PaGpJ9AiHUCAlg2UOXA=");
+_s(Contact, "XS0k0Skls4pj3vElN80GSDINDok=");
 _c = Contact;
 const __TURBOPACK__default__export__ = Contact;
 var _c;
