@@ -4,12 +4,13 @@
 };
 
 
+
 body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-content: center;
-   height: 100vh;
+   min-height: 100vh;
 }
 
 form input {
@@ -17,14 +18,14 @@ form input {
     height: 10%;
     padding: 1rem;
     background-color: rgb(10, 24, 81);
-    border-radius: 5px solid cyan;
+    border-radius: 5px;
 }
 
 textarea {
     width: 75%;
     padding: 1rem;
     background-color: rgb(10, 24, 81);
-    border-radius: 5px solid cyan;
+    border-radius: 5px;
 }
 
 .form {
@@ -35,16 +36,16 @@ textarea {
     width: 50%;
     height: 50%;
     padding: 1rem;
-    gap: 2px;
+    gap: 10px;
     margin: auto;
-    
-   
+    flex-wrap: wrap;
 }
 .aboutme-card {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
-    
+   
 }
 
 .resume-container {
@@ -55,20 +56,6 @@ textarea {
     height: 50%;
     width: 50%;
     margin: auto;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .form, .resume-container, .aboutme-card {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    form input, textarea {
-        width: 100%; /* Full width input fields */
-    }
-}

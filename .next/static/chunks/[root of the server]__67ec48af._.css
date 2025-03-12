@@ -141,6 +141,7 @@
     --color-gray-900: oklch(.21 .034 264.665);
     --color-black: #000;
     --spacing: .25rem;
+    --container-md: 28rem;
     --shadow-sm: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
     --shadow-md: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
     --shadow-lg: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
@@ -2783,6 +2784,13 @@
     border-inline-start: var(--border) solid color-mix(in oklab, currentColor 10%, #0000);
   }
 
+  .carousel-item {
+    box-sizing: content-box;
+    display: flex;
+    flex: none;
+    scroll-snap-align: start;
+  }
+
   .status {
     display: inline-block;
     aspect-ratio: 1;
@@ -2896,6 +2904,18 @@
 
   .card-body :where(p) {
     flex-grow: 1;
+  }
+
+  .carousel {
+    display: inline-flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
   }
 
   .alert {
@@ -3082,6 +3102,10 @@
     width: calc(var(--spacing) * 200);
   }
 
+  .max-w-md {
+    max-width: var(--container-md);
+  }
+
   .flex-shrink {
     flex-shrink: 1;
   }
@@ -3152,8 +3176,42 @@
     resize: both;
   }
 
+  .carousel-center .carousel-item {
+    scroll-snap-align: center;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
   .flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-end {
+    justify-content: flex-end;
+  }
+
+  :where(.space-x-4 > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse));
+    margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .justify-self-center {
+    justify-self: center;
+  }
+
+  .rounded-box {
+    border-radius: var(--radius-box);
+  }
+
+  .rounded-box {
+    border-radius: var(--radius-box);
   }
 
   .rounded-full {
@@ -3165,8 +3223,16 @@
     border-width: 1px;
   }
 
+  .bg-neutral {
+    background-color: var(--color-neutral);
+  }
+
   .fill-current {
     fill: currentColor;
+  }
+
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
 
   .text-wrap {
@@ -3223,6 +3289,14 @@
 
   .shadow-cyan-500\/50 {
     --tw-shadow-color: color-mix(in oklab, var(--color-cyan-500) 50%, transparent);
+  }
+
+  .shadow-gray-500 {
+    --tw-shadow-color: var(--color-gray-500);
+  }
+
+  .shadow-gray-500\/50 {
+    --tw-shadow-color: color-mix(in oklab, var(--color-gray-500) 50%, transparent);
   }
 
   .ring-offset-0 {
@@ -3284,7 +3358,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 form input {
@@ -3292,14 +3366,14 @@ form input {
   height: 10%;
   padding: 1rem;
   background-color: #0a1851;
-  border-radius: 5px solid cyan;
+  border-radius: 5px;
 }
 
 textarea {
   width: 75%;
   padding: 1rem;
   background-color: #0a1851;
-  border-radius: 5px solid cyan;
+  border-radius: 5px;
 }
 
 .form {
@@ -3310,13 +3384,15 @@ textarea {
   width: 50%;
   height: 50%;
   padding: 1rem;
-  gap: 2px;
+  gap: 10px;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .aboutme-card {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -3328,22 +3404,7 @@ textarea {
   height: 50%;
   width: 50%;
   margin: auto;
-}
-
-@media screen and (width <= 768px) {
-  body {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .form, .resume-container, .aboutme-card {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  form input, textarea {
-    width: 100%;
-  }
+  flex-wrap: wrap;
 }
 
 @layer base {
@@ -4730,6 +4791,12 @@ textarea {
   initial-value: skewY(0);
 }
 
+@property --tw-space-x-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
@@ -4915,8 +4982,9 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1rem;
-  box-shadow: 2px 2px 7px #0ff;
+  box-shadow: 5px 5px 5px -4px;
 }
 
 .avatar {
@@ -4928,6 +4996,7 @@ textarea {
 .ul-container {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 50px;
   height: 20px;
 }
@@ -4948,7 +5017,7 @@ textarea {
   align-items: flex-end;
   gap: 10px;
   padding: 5px;
-  box-shadow: 2px 2px 5px 2px #0ff;
+  box-shadow: 5px 5px 5px 5px;
 }
 
 

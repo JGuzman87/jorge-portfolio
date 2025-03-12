@@ -3,8 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1rem;
-  box-shadow: 2px 2px 7px #0ff;
+  box-shadow: 5px 5px 5px -4px;
 }
 
 .avatar {
@@ -16,6 +17,7 @@
 .ul-container {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 50px;
   height: 20px;
 }

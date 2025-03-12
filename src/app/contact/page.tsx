@@ -9,26 +9,31 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [comment, setComment] = useState('');
+  // const [color, setColor] = useState('pink');
 
+  // const handleColor = () => {
+    
+  // }
   
-    useEffect(() => {
+    // useEffect(() => {
       
-      if (email.includes('@')) {
-        console.log("not a valid email");
-      } else if(name !== '') {
-        console.log("a name is being provided");
-      } else if(comment.length === 5) {
-        console.log("a comment is being typed");
-      }
+    //   if (email.includes('@')) {
+    //     console.log("not a valid email");
+    //   } else if(name !== '') {
+    //     console.log("a name is being provided");
+    //   } else if(comment.length === 5) {
+    //     console.log("a comment is being typed");
+    //   }
       
-    }, [comment, email, name]);
+    // }, [comment, email, name]);
 
   return (
-    <form className="form shadow-lg shadow-cyan-500/50">
+    <form className="form shadow-lg shadow-gray-500/50">
       <label className="label-floating" htmlFor="email">
         Email:
       </label>
       <input
+      
         value={email}
         name="email"
         type="email"

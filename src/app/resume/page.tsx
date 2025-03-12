@@ -3,7 +3,7 @@ import React from 'react'
 const Resume = () => {
   return (
    
-      <div className="resume-container shadow-lg shadow-cyan-500/50">
+      <div className="resume-container shadow-lg shadow-gray-500/50">
         <h1>Resume</h1>
         <p>- Full Stack Web Development</p>
         <p>- JavaScript & React </p>
