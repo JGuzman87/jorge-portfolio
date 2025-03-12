@@ -3306,6 +3306,12 @@ textarea {
   justify-content: center;
   flex-wrap: wrap;
   margin: auto;
+  max-width: 90vw;
+  width: auto;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .resume-container {
@@ -3317,6 +3323,14 @@ textarea {
   width: 50%;
   margin: auto;
   flex-wrap: wrap;
+}
+
+@media (width <= 600px) {
+  .aboutme-card {
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+  }
 }
 
 @layer base {

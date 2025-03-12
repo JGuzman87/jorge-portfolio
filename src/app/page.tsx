@@ -8,7 +8,7 @@ export default function Home() {
 
 
   return (
-    <div className="aboutme-card  w-200 h-70 shadow-lg shadow-cyan-500/50">
+    <div className="aboutme-card  w-200 h-70 shadow-lg shadow-gray-500/50">
       
       <div className="card-body">
         <h2 className="card-title">About Me</h2>

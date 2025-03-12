@@ -22,15 +22,21 @@ const Contact = ()=>{
     // const [color, setColor] = useState('pink');
     // const handleColor = () => {
     // }
-    // useEffect(() => {
-    //   if (email.includes('@')) {
-    //     console.log("not a valid email");
-    //   } else if(name !== '') {
-    //     console.log("a name is being provided");
-    //   } else if(comment.length === 5) {
-    //     console.log("a comment is being typed");
-    //   }
-    // }, [comment, email, name]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Contact.useEffect": ()=>{
+            if (email.includes('@')) {
+                console.log("not a valid email");
+            } else if (name !== '') {
+                console.log("a name is being provided");
+            } else if (comment.length === 5) {
+                console.log("a comment is being typed");
+            }
+        }
+    }["Contact.useEffect"], [
+        comment,
+        email,
+        name
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
         className: "form shadow-lg shadow-gray-500/50",
         children: [
@@ -110,7 +116,7 @@ const Contact = ()=>{
         columnNumber: 5
     }, this);
 };
-_s(Contact, "XXFuFch4PaGpJ9AiHUCAlg2UOXA=");
+_s(Contact, "XS0k0Skls4pj3vElN80GSDINDok=");
 _c = Contact;
 const __TURBOPACK__default__export__ = Contact;
 var _c;
