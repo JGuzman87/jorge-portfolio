@@ -15,17 +15,17 @@ const Contact = () => {
     
   // }
   
-    // useEffect(() => {
+    useEffect(() => {
       
-    //   if (email.includes('@')) {
-    //     console.log("not a valid email");
-    //   } else if(name !== '') {
-    //     console.log("a name is being provided");
-    //   } else if(comment.length === 5) {
-    //     console.log("a comment is being typed");
-    //   }
+      if (email.includes('@')) {
+        console.log("not a valid email");
+      } else if(name !== '') {
+        console.log("a name is being provided");
+      } else if(comment.length === 5) {
+        console.log("a comment is being typed");
+      }
       
-    // }, [comment, email, name]);
+    }, [comment, email, name]);
 
   return (
     <form className="form shadow-lg shadow-gray-500/50">
