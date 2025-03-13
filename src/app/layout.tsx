@@ -1,6 +1,5 @@
 
-"use client"
-import {useState, useEffect} from 'react';
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";

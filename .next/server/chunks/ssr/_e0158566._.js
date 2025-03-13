@@ -23,118 +23,73 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Portfolio = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 p-4",
+        className: "carousel carousel-end rounded-box w-100%",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
+                className: "carousel-item w-100",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
-                    className: "rounded-box"
+                    src: "/VG-Games.png",
+                    alt: "Drink"
                 }, void 0, false, {
                     fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/portfolio/page.tsx",
                 lineNumber: 7,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
+                className: "carousel-item w-100",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
-                    className: "rounded-box"
+                    src: "/istockphoto-1440483244-612x612.jpg",
+                    alt: "Drink"
                 }, void 0, false, {
                     fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 14,
-                    columnNumber: 11
+                    lineNumber: 13,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 13,
-                columnNumber: 9
+                lineNumber: 12,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
+                className: "carousel-item w-100",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
-                    className: "rounded-box"
+                    src: "/TuneTracker.png",
+                    alt: "Drink"
                 }, void 0, false, {
                     fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 20,
-                    columnNumber: 11
+                    lineNumber: 16,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 19,
-                columnNumber: 9
+                lineNumber: 15,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
+                className: "carousel-item w-100",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
-                    className: "rounded-box"
+                    src: "/weather.png",
+                    alt: "Drink"
                 }, void 0, false, {
                     fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 26,
-                    columnNumber: 11
+                    lineNumber: 19,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 25,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
-                    className: "rounded-box"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 32,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 31,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
-                    className: "rounded-box"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 38,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 37,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "carousel-item",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
-                    className: "rounded-box"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/portfolio/page.tsx",
-                    lineNumber: 44,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/portfolio/page.tsx",
-                lineNumber: 43,
-                columnNumber: 9
+                lineNumber: 18,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/portfolio/page.tsx",
         lineNumber: 6,
-        columnNumber: 7
+        columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = Portfolio;
