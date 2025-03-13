@@ -5,6 +5,7 @@
 
 
 
+
 body {
    display: flex;
    flex-direction: column;
@@ -16,15 +17,15 @@ body {
 form input {
     width: 75%;
     height: 10%;
-    padding: 1rem;
-    background-color: rgb(10, 24, 81);
+    padding: 1rem;;
     border-radius: 5px;
+    border: 1px solid gray;
 }
 
 textarea {
     width: 75%;
     padding: 1rem;
-    background-color: rgb(10, 24, 81);
+    border: 1px solid gray;
     border-radius: 5px;
 }
 

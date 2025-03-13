@@ -1,4 +1,6 @@
 
+"use client"
+import {useState, useEffect} from 'react';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
@@ -28,7 +30,7 @@ export default function RootLayout({
  
   return (
     
-    <html data-theme="synthwave" lang="en">
+    <html data-theme="retro" lang="en">
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

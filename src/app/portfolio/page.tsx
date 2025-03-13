@@ -1,53 +1,24 @@
 import React from 'react'
 
+
 const Portfolio = () => {
   return (
-   
-      <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 p-4">
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-            className="rounded-box"
-          />
-        </div>
+    <div className="carousel carousel-end rounded-box w-100%">
+      <div className="carousel-item w-100">
+      
+          <img src="/VG-Games.png" alt="Drink" />
+       
       </div>
-   
+      <div className="carousel-item w-100">
+        <img src="/istockphoto-1440483244-612x612.jpg" alt="Drink" />
+      </div>
+      <div className="carousel-item w-100">
+        <img src="/TuneTracker.png" alt="Drink" />
+      </div>
+      <div className="carousel-item w-100">
+        <img src="/weather.png" alt="Drink" />
+      </div>
+    </div>
   );
 }
 
