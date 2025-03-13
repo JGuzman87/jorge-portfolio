@@ -7,7 +7,7 @@ const Nav = () => {
   const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
     <div>
-      <nav className="nav-container">
+      <nav className="nav-container shadow-xl">
         <div className="avatar">
           <div className=" ring-offset-base-100 w-17 rounded-full ring ring-offset-0">
             <img src="/IMG_1913.jpeg" alt="profile image" />

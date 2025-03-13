@@ -3305,6 +3305,11 @@
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
+  .shadow-xl {
+    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, #0000001a), 0 8px 10px -6px var(--tw-shadow-color, #0000001a);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
   .ring {
     --tw-ring-shadow: var(--tw-ring-inset, ) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -3377,16 +3382,6 @@
 
   .\[xlink\:href\] {
     xlink: href;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    @media (width >= 48rem) {
-      @media (hover: hover) {
-        .dark\:md\:hover\:bg-fuchsia-600:hover {
-          background-color: var(--color-fuchsia-600);
-        }
-      }
-    }
   }
 }
 
@@ -5040,7 +5035,7 @@ textarea {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem;
-  box-shadow: 5px 5px 5px -4px;
+  box-shadow: 5px 5px 5px -4px !important;
 }
 
 .avatar {
