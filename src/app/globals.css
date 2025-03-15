@@ -3,6 +3,9 @@
     themes: all;
 };
 
+.cards-container{
+   gap: 10px;
+}
 
 
 
