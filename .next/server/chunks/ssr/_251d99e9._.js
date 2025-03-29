@@ -22,13 +22,23 @@ function Form() {
     // const [name, setName] = useState("");
     // const [comment, setComment] = useState("");
     const handleChange = (e)=>{
-        setFormData((prev)=>({
-                ...prev,
+        setFormData((prevData)=>({
+                ...prevData,
                 [e.target.name]: e.target.value
             }));
     };
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        console.log(formData);
+        setFormData({
+            email: '',
+            name: '',
+            comment: ''
+        });
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-        className: "form shadow-lg shadow-gray-500/50",
+        className: "form shadow-md shadow-gray-500/50",
+        onSubmit: handleSubmit,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                 className: "label-floating",
@@ -36,7 +46,7 @@ function Form() {
                 children: "Email:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 20,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -44,10 +54,11 @@ function Form() {
                 name: "email",
                 type: "email",
                 placeholder: "provide valid email",
-                onChange: handleChange
+                onChange: handleChange,
+                required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 23,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -55,7 +66,7 @@ function Form() {
                 children: "Name:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 30,
+                lineNumber: 38,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -63,10 +74,11 @@ function Form() {
                 name: "name",
                 type: "text",
                 placeholder: "enter name",
-                onChange: handleChange
+                onChange: handleChange,
+                required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 31,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -74,35 +86,33 @@ function Form() {
                 children: "Comments:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 38,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                 value: formData.comment,
                 name: "comment",
                 placeholder: "place comments",
-                onChange: handleChange
+                onChange: handleChange,
+                required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 39,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 className: "btn btn-neutral btn-wide",
-                onClick: (e)=>{
-                    e.preventDefault();
-                    console.log(formData);
-                },
+                type: "submit",
                 children: "Submit"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 45,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Form.tsx",
-        lineNumber: 19,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

@@ -5,18 +5,21 @@ export default function Form() {
 
   const [formData, setFormData] = useState({email: '', name: '', comment: ''});
 
-      // const [email, setEmail] = useState("");
-      // const [name, setName] = useState("");
-      // const [comment, setComment] = useState("");
-
       const handleChange = (
         e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
       ) => {
-        setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+        setFormData((prevData) => ({ ...prevData, [e.target.name]: e.target.value }));
+      };
+
+      const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        console.log(formData);
+        setFormData({email: '', name:'', comment: ''})
       };
 
   return (
-    <form className="form shadow-lg shadow-gray-500/50">
+    <form className="form shadow-md shadow-gray-500/50" onSubmit={handleSubmit}>
+      
       <label className="label-floating" htmlFor="email">
         Email:
       </label>
@@ -26,6 +29,7 @@ export default function Form() {
         type="email"
         placeholder="provide valid email"
         onChange={handleChange}
+        required
       />
       <label htmlFor="name">Name:</label>
       <input
@@ -34,6 +38,7 @@ export default function Form() {
         type="text"
         placeholder="enter name"
         onChange={handleChange}
+        required
       />
       <label htmlFor="comment">Comments:</label>
       <textarea
@@ -41,13 +46,10 @@ export default function Form() {
         name="comment"
         placeholder="place comments"
         onChange={handleChange}
+        required
       ></textarea>
       <button
-        className="btn btn-neutral btn-wide"
-        onClick={(e) => {
-          e.preventDefault();
-          console.log(formData);
-        }}
+        className="btn btn-neutral btn-wide" type="submit"
       >
         Submit
       </button>

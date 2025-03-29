@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Nav.css"],"sourcesContent":[".nav-container {\ndisplay: flex;\nalign-items: center;\njustify-content:space-between;\nflex-wrap: wrap;\npadding: 1rem;\nbox-shadow: 5px 5px 5px gray  !important;\n\n\n}\n\n.avatar {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n}\n\n.ul-container {\ndisplay: flex;\njustify-content: flex-end;\nflex-wrap: wrap;\ngap: 50px;\nheight: 20px;\n}\n\n.h1 {\n    display: flex;\n    width: 50;\n    flex-direction: column;\n    justify-content: center;\n    height: 45%;\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;;AAWA;;;;;;AAMA;;;;;;;;AAQA"}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Nav.css"],"sourcesContent":[".nav-container {\ndisplay: flex;\nalign-items: center;\njustify-content:space-between;\nflex-wrap: wrap;\npadding: 1rem;\n\n\n\n}\n\n.avatar {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n}\n\n.ul-container {\ndisplay: flex;\njustify-content: flex-end;\nflex-wrap: wrap;\ngap: 50px;\nheight: 20px;\n}\n\n.h1 {\n    display: flex;\n    width: 50;\n    flex-direction: column;\n    justify-content: center;\n    height: 45%;\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAWA;;;;;;AAMA;;;;;;;;AAQA"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

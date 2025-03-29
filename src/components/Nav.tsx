@@ -7,7 +7,7 @@ const Nav = () => {
   const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
     <div>
-      <nav className="nav-container shadow-gray-500/50">
+      <nav className="nav-container shadow-md shadow-gray-500/50">
         <div className="avatar">
           <div className=" ring-offset-base-100 w-17 rounded-full ring ring-offset-0">
             <img src="/IMG_1913.jpeg" alt="profile image" />
@@ -24,7 +24,7 @@ const Nav = () => {
           className="ul-container font-semibold
 "
         >
-        {/* map through navItems array and set as links and uppercase */}
+          {/* map through navItems array and set as links and uppercase */}
           {navItems.map((navItem) => (
             <Link key={navItem} href={navItem}>
               {navItem.toUpperCase()}
@@ -34,15 +34,11 @@ const Nav = () => {
 
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
-          <input
-            type="checkbox"
-            className="theme-controller"
-            value="synthwave"
-          />
+          <input type="checkbox" className="theme-controller" value="synthwave" />
 
           {/* moon icon */}
           <svg
-            className="swap-on h-10 w-10 fill-current"
+            className="swap-on h-10 w-7 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -51,7 +47,7 @@ const Nav = () => {
 
           {/* sun icon */}
           <svg
-            className="swap-off h-10 w-10 fill-current bg-color white"
+            className="swap-off h-10 w-7 fill-current bg-color white"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
