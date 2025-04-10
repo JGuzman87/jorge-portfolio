@@ -10,7 +10,7 @@ const Nav = () => {
       <nav className="nav-container shadow-md shadow-gray-500/50">
         <div className="avatar">
           <div className=" ring-offset-base-100 w-17 rounded-full ring ring-offset-0">
-            <img src="/IMG_1913.jpeg" alt="profile image" />
+            <img  src="/MIAMIBG.JPEG" alt="profile image" />
           </div>
 
           <h1

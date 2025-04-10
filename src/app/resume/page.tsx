@@ -3,8 +3,8 @@ import React from 'react'
 const Resume = () => {
   return (
    
-      <div className="resume-container shadow-lg shadow-gray-500/50">
-        <h1>Resume</h1>
+      <div className="p-5 gap-5 resume-container shadow-lg shadow-gray-500/50">
+        <h1 className='font-bold text-2xl'>Resume</h1>
         <p>- Full Stack Web Development</p>
         <p>- JavaScript & React </p>
         <p>- APIs & Databases (MongoDB, SQL)</p>

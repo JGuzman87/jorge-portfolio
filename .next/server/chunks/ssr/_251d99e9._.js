@@ -18,9 +18,6 @@ function Form() {
         name: '',
         comment: ''
     });
-    // const [email, setEmail] = useState("");
-    // const [name, setName] = useState("");
-    // const [comment, setComment] = useState("");
     const handleChange = (e)=>{
         setFormData((prevData)=>({
                 ...prevData,
@@ -46,7 +43,7 @@ function Form() {
                 children: "Email:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 27,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -58,7 +55,7 @@ function Form() {
                 required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 30,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -66,7 +63,7 @@ function Form() {
                 children: "Name:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 38,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -78,7 +75,7 @@ function Form() {
                 required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 39,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -86,7 +83,7 @@ function Form() {
                 children: "Comments:"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 47,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -97,7 +94,7 @@ function Form() {
                 required: true
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 48,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -106,13 +103,13 @@ function Form() {
                 children: "Submit"
             }, void 0, false, {
                 fileName: "[project]/src/components/Form.tsx",
-                lineNumber: 55,
+                lineNumber: 51,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Form.tsx",
-        lineNumber: 25,
+        lineNumber: 21,
         columnNumber: 5
     }, this);
 }

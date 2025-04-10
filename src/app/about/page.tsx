@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="aboutme-card  w-200 h-70 shadow-lg shadow-gray-500/50">
       <div className="card-body">
-        <h2 className="card-title">About Me</h2>
+        <h2 className="text-2xl card-title">About Me</h2>
         <p>
           After 16 years in the banking industry, I am now pursuing my passion
           for technology by transitioning into full stack development. I have a
