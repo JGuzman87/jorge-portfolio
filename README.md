@@ -1,35 +1,37 @@
+## Deployed site : 
+# Jorge's-Portfolio
 
-## Deployed site : https://jorgeguzman-portfolio.netlify.app/
+ ## Table of Contents
+- [Description](#description) 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
+ 
 
-First, run the development server:
+  ## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  The purpose of this project is to create a profesional portfolio where potential employers can view my profile and projects
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <img src="./portfoliopage.png" alt="Portfolio page screenshot" width="500"/>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  <img src="./darkmode.png" alt="Dark mode screenshot" width="200"/>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  
+  website: https://jorgeguzman-portfolio.netlify.app/
+  ## Installation
 
-## Learn More
+  To install, clone Github repository and install on local machine.
+  
+  ## Usage
 
-To learn more about Next.js, take a look at the following resources:
+  React along with next.js were used for this project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  ## Contributing
+  Jorge Guzman
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  
+  ## Contact
+  Email: jguzman913@gmail.com
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  Github: https://github.com/JGuzman87/
