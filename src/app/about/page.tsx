@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className="aboutme-card  w-200 h-70 shadow-lg shadow-gray-500/50">
+  <div className="aboutme-card w-50 shadow-lg shadow-gray-500/50">
       <div className="card-body">
         <h2 className="text-2xl card-title">About Me</h2>
         <p>

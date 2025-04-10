@@ -24,11 +24,10 @@ const Nav = () => {
           className="ul-container font-semibold
 "
         >
-          {/* map through navItems array and set as links and uppercase */}
           {navItems.map((navItem) => (
-            <Link key={navItem} href={navItem}>
-              {navItem.toUpperCase()}
-            </Link>
+            <li key={navItem}>
+              <Link href={navItem}>{navItem.toUpperCase()}</Link>
+            </li>
           ))}
         </ul>
 
