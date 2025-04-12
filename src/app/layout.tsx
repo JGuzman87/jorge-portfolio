@@ -1,6 +1,6 @@
 
 
-import { Geist, Geist_Mono, Cabin} from "next/font/google";
+import { Cabin} from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -10,10 +10,6 @@ const cabin = Cabin({
   subsets: ["latin"],
 });
 
-const geistMono = Cabin({
-  variable: "--font-cabin",
-  subsets: ["latin"],
-});
 
 
 
@@ -29,7 +25,7 @@ export default function RootLayout({
  
   return (
     
-    <html data-theme="garden" lang="en">
+    <html data-theme="lemonade" lang="en">
       
       <body
         className={`${cabin.variable}  antialiased`}

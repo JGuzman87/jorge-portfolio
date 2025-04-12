@@ -7,7 +7,7 @@ const Nav = () => {
 
   const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
-    <div>
+  
       <nav className="nav-container shadow-md shadow-gray-500/50">
         <div className="avatar ">
           <div className=" ring-offset-base-100 w-20 rounded-full  ">
@@ -19,9 +19,8 @@ const Nav = () => {
               className="hidden md:block"
             />
           </div>
-
           <h1
-            className="font-semibold  md: text-2xl flex self-center 
+            className="font-semibold  md: text-2xl flex self-center
 "
           >
             Jorge Guzman
@@ -61,7 +60,7 @@ const Nav = () => {
           </svg>
         </label>
       </nav>
-    </div>
+
   );
 };
 
