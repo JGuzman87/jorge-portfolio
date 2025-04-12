@@ -9,13 +9,19 @@ const Nav = () => {
   return (
     <div>
       <nav className="nav-container shadow-md shadow-gray-500/50">
-        <div className="avatar">
-          <div className=" ring-offset-base-100 w-20 rounded-full ring ">
-            <Image  src="/MIAMIBG.JPEG" alt="profile image" height={100} width={100} />
+        <div className="avatar ">
+          <div className=" ring-offset-base-100 w-20 rounded-full  ">
+            <Image
+              src="/MIAMIBG.JPEG"
+              alt="profile image"
+              height={100}
+              width={100}
+              className="hidden md:block"
+            />
           </div>
 
           <h1
-            className="font-semibold
+            className="font-semibold  md: text-2xl flex self-center 
 "
           >
             Jorge Guzman
