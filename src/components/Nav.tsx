@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import './Nav.css';
 
 const Nav = () => {
@@ -9,8 +10,8 @@ const Nav = () => {
     <div>
       <nav className="nav-container shadow-md shadow-gray-500/50">
         <div className="avatar">
-          <div className=" ring-offset-base-100 w-17 rounded-full ring ring-offset-0">
-            <img  src="/MIAMIBG.JPEG" alt="profile image" />
+          <div className=" ring-offset-base-100 w-20 rounded-full ring ">
+            <Image  src="/MIAMIBG.JPEG" alt="profile image" height={100} width={100} />
           </div>
 
           <h1
@@ -21,7 +22,7 @@ const Nav = () => {
           </h1>
         </div>
         <ul
-          className="ul-container font-semibold
+          className="ul-container font-semibold flex justify-end
 "
         >
           {navItems.map((navItem) => (
@@ -33,7 +34,7 @@ const Nav = () => {
 
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
-          <input type="checkbox" className="theme-controller" value="synthwave" />
+          <input type="checkbox" className="theme-controller" value="night" />
 
           {/* moon icon */}
           <svg

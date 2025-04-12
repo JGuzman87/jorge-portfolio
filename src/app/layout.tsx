@@ -1,17 +1,17 @@
 
 
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Cabin} from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cabin = Cabin({
+  variable: "--font-cabin",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const geistMono = Cabin({
+  variable: "--font-cabin",
   subsets: ["latin"],
 });
 
@@ -29,10 +29,10 @@ export default function RootLayout({
  
   return (
     
-    <html data-theme="retro" lang="en">
+    <html data-theme="garden" lang="en">
       
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${cabin.variable}  antialiased`}
       >
         <Nav  />
         {children}

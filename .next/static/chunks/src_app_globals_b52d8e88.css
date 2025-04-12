@@ -3026,6 +3026,10 @@
     width: calc(var(--spacing) * 17);
   }
 
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
@@ -3168,6 +3172,14 @@
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
   .flex-wrap {
     flex-wrap: wrap;
   }
@@ -3218,6 +3230,10 @@
 
   .self-center {
     align-self: center;
+  }
+
+  .self-end {
+    align-self: flex-end;
   }
 
   .justify-self-center {
@@ -3441,6 +3457,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: Cabin;
   justify-content: space-between;
   align-content: center;
   min-height: 100vh;
