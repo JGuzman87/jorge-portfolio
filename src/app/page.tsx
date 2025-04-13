@@ -1,6 +1,6 @@
 
 import type { Metadata } from "next";
-import {AboutMe} from './about/page';
+import AboutMe from './about/page';
 
 
   export const metadata: Metadata = {
@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
  
-      <div>
+      <div className="p-4">
         <AboutMe />
       </div>
 
