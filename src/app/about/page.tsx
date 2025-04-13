@@ -4,7 +4,7 @@ import Transition from "@/components/Transition";
 
 const AboutMe = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-full">
+    <div className="flex justify-center items-center min-h-screen pt-20 px-4 sm:w-full">
       <Transition>
         <div className="aboutme-card w-full max-w-3xl shadow-lg shadow-gray-500/50 text-3xl p-6 rounded-lg">
           <div className="card-body">
