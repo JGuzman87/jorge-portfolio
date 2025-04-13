@@ -2,7 +2,7 @@
 import React from 'react'
 import Transition from "@/components/Transition";
 
-export const AboutMe = () => {
+const AboutMe = () => {
   return (
     <div className="flex justify-center items-center h-screen w-full">
       <Transition>
