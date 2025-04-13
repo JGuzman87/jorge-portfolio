@@ -7,8 +7,8 @@ body {
    display: flex;
    flex-direction: column;
    font-family: 'Cabin';
-   justify-content: space-between;
-   align-content: center;
+   
+
    min-height: 100vh;
 }
 
@@ -52,16 +52,17 @@ textarea {
     box-sizing: border-box; 
 }
 
-.resume-container {
+/* .resume-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
     height: 50%;
     width: 50%;
     margin: auto;
     flex-wrap: wrap;
-}
+} */
 
 @media (max-width: 600px) {
     .aboutme-card {

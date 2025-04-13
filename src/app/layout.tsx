@@ -31,6 +31,7 @@ export default function RootLayout({
         className={`${cabin.variable}  antialiased`}
       >
         <Nav  />
+        
         {children}
         <Footer />
       </body>

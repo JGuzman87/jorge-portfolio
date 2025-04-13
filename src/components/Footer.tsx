@@ -7,7 +7,7 @@ const Footer = () => {
 
     const year = new Date().getFullYear();
   return (
-    <footer className="footer-container ">
+    <footer className="footer-container mt-auto">
       <div className='flex gap-8'>
       <Link href={"https://github.com/JGuzman87"}>
         <Image

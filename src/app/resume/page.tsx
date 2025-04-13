@@ -1,18 +1,22 @@
+"use client"
 import React from 'react'
+import Transition from '@/components/Transition';
 
 const Resume = () => {
   return (
-   
-      <div className="p-5 gap-5 resume-container shadow-lg shadow-gray-500/50">
-        <h1 className='font-bold text-2xl'>Resume</h1>
-        <p>- Full Stack Web Development</p>
-        <p>- JavaScript & React </p>
-        <p>- APIs & Databases (MongoDB, SQL)</p>
-        <p>- Version Control with Git & GitHub</p>
-        <p>Download my Resume</p>
-        <a href="https://profile.indeed.com/p/jorgeg-tpe7141">Indeed Resume</a>
-      </div>
-
+    <div className="flex justify-center items-center h-screen w-full">
+      <Transition>
+        <div className="flex flex-col gap-4 text-center shadow-lg shadow-gray-500/50 p-6 rounded-lg">
+          <h1 className="font-bold text-2xl">Resume</h1>
+          <p>- Full Stack Web Development</p>
+          <p>- JavaScript & React </p>
+          <p>- APIs & Databases (MongoDB, SQL)</p>
+          <p>- Version Control with Git & GitHub</p>
+          <p>Download my Resume</p>
+          <a href="https://profile.indeed.com/p/jorgeg-tpe7141">Indeed Resume</a>
+        </div>
+      </Transition>
+    </div>
   );
 }
 

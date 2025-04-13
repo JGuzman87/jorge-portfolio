@@ -8,9 +8,9 @@ const Nav = () => {
   const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
   
-      <nav className="nav-container shadow-md shadow-gray-500/50">
-        <div className="avatar ">
-          <div className=" ring-offset-base-100 w-20 rounded-full  ">
+      <nav className="nav-container shadow-md shadow-gray-500/50 ">
+        <div className="avatar gap-3">
+          <div className=" ring-offset-base-100 w-10  rounded-full  ">
             <Image
               src="/MIAMIBG.JPEG"
               alt="profile image"
@@ -20,7 +20,7 @@ const Nav = () => {
             />
           </div>
           <h1
-            className="font-semibold  md: text-2xl flex self-center
+            className="font-semibold  md: text-xl flex self-center
 "
           >
             Jorge Guzman
