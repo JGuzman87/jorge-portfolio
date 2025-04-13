@@ -1,7 +1,7 @@
 
 import type { Metadata } from "next";
 import {AboutMe} from './about/page';
-import Transition from "@/components/Transition";
+
 
   export const metadata: Metadata = {
     title: "Jorge's Portfolio",
