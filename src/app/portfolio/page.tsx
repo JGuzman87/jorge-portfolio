@@ -27,7 +27,7 @@ const Portfolio = () => {
             </div>
           </div>
         </Link>
-        <Link href="https://jguzman87.github.io/weather-dashboard/">
+        <Link href="https://weather-dashboard-react-jlc8zuqfl.vercel.app/">
           <div className="card bg-base-100 w-80 shadow-sm justify-self-center self-center">
             <figure>
               <img src="/weather.png" alt="weather" />
