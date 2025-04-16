@@ -25,7 +25,7 @@ export default function RootLayout({
  
   return (
     
-    <html data-theme="lemonade" lang="en">
+    <html data-theme="fantasy" lang="en">
       
       <body
         className={`${cabin.variable}  antialiased`}
