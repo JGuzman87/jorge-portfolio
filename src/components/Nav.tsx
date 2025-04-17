@@ -18,20 +18,22 @@ const Nav = () => {
             className="hidden md:block"
           />
         </div>
-        <h1
-          className=" hover:text-red-500 font-semibold text-2xl  md:text-2xl flex self-center
+        <Link href={"/"}>
+          <h1
+            className=" hover:text-red-500 font-semibold text-2xl  md:text-2xl flex self-center
 "
-        >
-          Jorge Guzman
-        </h1>
+          >
+            Jorge Guzman
+          </h1>
+        </Link>
       </div>
       <ul
         className="ul-container  font-semibold
 "
       >
         {navItems.map((navItem) => (
-          <li  key={navItem}>
-            <Link  href={navItem}>{navItem.toUpperCase()}</Link>
+          <li key={navItem}>
+            <Link href={navItem}>{navItem.toUpperCase()}</Link>
           </li>
         ))}
       </ul>

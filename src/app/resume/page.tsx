@@ -4,7 +4,7 @@ import Transition from '@/components/Transition';
 
 const Resume = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-full">
+    <div className="flex justify-center items-center p-4 mt-auto ">
       <Transition>
         <div className="flex flex-col gap-4 text-center shadow-lg shadow-gray-500/50 p-6 rounded-lg">
           <h1 className="font-bold text-2xl">Resume</h1>
