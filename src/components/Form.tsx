@@ -18,7 +18,7 @@ export default function Form() {
       };
 
   return (
-    <form className="form shadow-md shadow-gray-500/50" onSubmit={handleSubmit}>
+    <form className="form shadow-md w-full md:max-w-1/2 shadow-gray-500/50 rounded-xl" onSubmit={handleSubmit}>
       
       <label className="label-floating" htmlFor="email">
         Email:

@@ -4,11 +4,11 @@ import Transition from "@/components/Transition";
 
 const AboutMe = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen pt-20 px-4 sm:w-full">
+    <div className="flex justify-center items-center pt-20 px-4 ">
       <Transition>
         <div className="aboutme-card w-full max-w-3xl shadow-lg shadow-gray-500/50 text-3xl p-6 rounded-lg">
           <div className="card-body">
-            <h2 className="ont-bold text-2xl card-title mb-4">About Me</h2>
+            <h2 className="font-bold text-2xl card-title mb-4">About Me</h2>
             <p className="text-xl">
               After 16 years in the banking industry, I am now pursuing my
               passion for technology by transitioning into full stack
