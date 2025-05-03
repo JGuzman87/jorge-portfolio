@@ -180,6 +180,7 @@ const Contact = ()=>{
             if (response.ok) {
                 alert("Thank You");
                 console.log("Its Okay 👍🏽");
+                await fetch('api/contact');
             } else {
                 const errorData = await response.json();
                 console.log("submition failed", errorData.message || "unknown error");
@@ -203,17 +204,17 @@ const Contact = ()=>{
                 form: formData
             }, void 0, false, {
                 fileName: "[project]/src/app/contact/page.tsx",
-                lineNumber: 53,
+                lineNumber: 54,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/contact/page.tsx",
-            lineNumber: 52,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/contact/page.tsx",
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 };

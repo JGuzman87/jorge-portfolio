@@ -34,6 +34,7 @@ const Contact = () => {
       if (response.ok) {
         alert("Thank You")
         console.log("Its Okay 👍🏽");
+        await fetch('api/contact');
 
       } else {
         const errorData = await response.json();
