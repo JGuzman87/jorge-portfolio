@@ -23,7 +23,8 @@ export const GET = async () => {
 
         return NextResponse.json(result.rows);
     } catch(err) {
-        return NextResponse.json({error: 'Failed to fetch contact information'}, {status: 500});
+        console.log(err)
+        return NextResponse.json({err: 'Failed to fetch contact information'}, {status: 500});
     }
     }
 
