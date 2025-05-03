@@ -1,51 +1,47 @@
-import {ChangeEvent, useState} from 'react'
 
+interface FormProps {
+  submit: (e: React.FormEvent<HTMLFormElement>) => void;
+  change: (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) => void;
+  form: {
+    email: string;
+    name: string;
+    comment: string;
+  };
+}
 
-export default function Form() {
+export default function Form({ submit, change, form }: FormProps) {
 
-  const [formData, setFormData] = useState({email: '', name: '', comment: ''});
-
-      const handleChange = (
-        e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
-      ) => {
-        setFormData((prevData) => ({ ...prevData, [e.target.name]: e.target.value }));
-      };
-
-      const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        console.log(formData);
-        setFormData({email: '', name:'', comment: ''})
-      };
+  
 
   return (
-    <form className="form shadow-md w-full md:max-w-1/2 shadow-gray-500/50 rounded-xl" onSubmit={handleSubmit}>
+    <form className="form shadow-md w-full md:max-w-1/2 shadow-gray-500/50 rounded-xl" onSubmit={submit}>
       
       <label className="label-floating" htmlFor="email">
         Email:
       </label>
       <input
-      value={formData.email} 
+      value={form.email} 
         name="email"
         type="email"
         placeholder="provide valid email"
-        onChange={handleChange}
+        onChange={change}
         required
       />
       <label htmlFor="name">Name:</label>
       <input
-        value={formData.name} 
+        value={form.name} 
         name="name"
         type="text"
         placeholder="enter name"
-        onChange={handleChange}
+        onChange={change}
         required
       />
       <label htmlFor="comment">Comments:</label>
       <textarea
-        value={formData.comment} 
+        value={form.comment} 
         name="comment"
         placeholder="place comments"
-        onChange={handleChange}
+        onChange={change}
         required
       ></textarea>
       <button

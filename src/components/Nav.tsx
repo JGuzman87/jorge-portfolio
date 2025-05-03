@@ -20,7 +20,7 @@ const Nav = () => {
         </div>
         <Link href={"/"}>
           <h1
-            className=" hover:text-red-500 font-semibold text-2xl  md:text-2xl flex self-center
+            className=" hover:text-blue-400 font-semibold text-2xl  md:text-2xl flex self-center
 "
           >
             Jorge Guzman
@@ -33,12 +33,14 @@ const Nav = () => {
       >
         {navItems.map((navItem) => (
           <li key={navItem}>
-            <Link href={navItem}>{navItem.toUpperCase()}</Link>
+            <Link href={navItem}>
+              <p className="capitalize hover:text-blue-400">{navItem}</p>
+            </Link>
           </li>
         ))}
       </ul>
 
-      <label className="swap swap-rotate">
+      <label className="swap swap-rotate hover:bg-blue-400 rounded-2xl w-fit justify-self-end">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox" className="theme-controller" value="night" />
 
