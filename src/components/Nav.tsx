@@ -40,7 +40,7 @@ const Nav = () => {
         ))}
       </ul>
 
-      <label className="swap swap-rotate hover:bg-blue-400 rounded-2xl w-fit justify-self-end">
+      <label className="swap swap-rotate hover:bg-blue-400 rounded-2xl md:w-fit md:justify-self-end">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox" className="theme-controller" value="night" />
 
