@@ -45,7 +45,7 @@ export default function Form({ submit, change, form }: FormProps) {
         required
       ></textarea>
       <button
-        className="btn btn-neutral btn-wide" type="submit"
+        className="btn btn-neutral btn-wide transition-all" type="submit"
       >
         Submit
       </button>

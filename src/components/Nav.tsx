@@ -8,14 +8,14 @@ const Nav = () => {
   const navItems: string[] = ['about', 'contact', 'portfolio', 'resume']
   return (
     <nav className="nav-container shadow-md shadow-gray-500/50 grid grid-cols-1 md:grid-cols-3 gap-4 p-2 ">
-      <div className="flex justify-center text-center avatar">
+      <div className="flex flex-col md:flex-row justify-center text-center avatar">
         <div className=" fring-offset-base-100 w-10  rounded-full  ">
           <Image
             src="/MIAMIBG.JPEG"
             alt="profile image"
             height={100}
             width={100}
-            className="hidden md:block"
+           
           />
         </div>
         <Link href={"/"}>

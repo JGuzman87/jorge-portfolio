@@ -1,11 +1,45 @@
 "use client"
-import React from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link';
-import Transition from '@/components/Transition';
+
 
 const Portfolio = () => {
+
+  // State to track whether the portfolio content is still loading
+  const [isLoading, setIsLoading] = useState(true);
+
+  // useEffect hook to simulate loading behavior on component mount
+  useEffect(() => {
+    // Set a timeout to simulate loading delay (e.g., fetching data)
+    const timer = setTimeout(() => {
+      // After delay, set isLoading to false to indicate loading is complete
+      setIsLoading(false);
+    }, 1000); // 1 second delay
+
+    // Cleanup function to clear the timer if component unmounts before timeout
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Conditional rendering: show skeleton cards as placeholders while loading
+  if (isLoading) {
+    // Show 4 skeleton cards as placeholders while loading
+    return (
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center p-9">
+        {[1, 2, 3, 4].map((i) => (
+          <div key={i} className="card bg-base-200 w-80 p-4">
+            <div className="skeleton h-48 w-full mb-4"></div>
+            <div className="skeleton h-6 w-3/4 mx-auto mb-2"></div>
+            <div className="skeleton h-4 w-1/2 mx-auto"></div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  // Final return block: renders the portfolio content once loading is complete
   return (
-    <Transition>
+   
       <div className="cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center p-9">
         <Link href="https://pac-overflow.onrender.com/api/posts/">
           <div className="card bg-base-200 w-80 justify-self-center">
@@ -48,7 +82,7 @@ const Portfolio = () => {
           </div>
         </Link>
       </div>
-    </Transition>
+   
   );
 }
 

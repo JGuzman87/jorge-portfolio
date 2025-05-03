@@ -57,7 +57,7 @@ const Nav = ()=>{
         className: "nav-container shadow-md shadow-gray-500/50 grid grid-cols-1 md:grid-cols-3 gap-4 p-2 ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-center text-center avatar",
+                className: "flex flex-col md:flex-row justify-center text-center avatar",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: " fring-offset-base-100 w-10  rounded-full  ",
@@ -65,8 +65,7 @@ const Nav = ()=>{
                             src: "/MIAMIBG.JPEG",
                             alt: "profile image",
                             height: 100,
-                            width: 100,
-                            className: "hidden md:block"
+                            width: 100
                         }, void 0, false, {
                             fileName: "[project]/src/components/Nav.tsx",
                             lineNumber: 13,

@@ -1,6 +1,22 @@
 {
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/u_4i0qWljRw_PfU81xCKCpdpbgZJl6XvqdnsF3_OAw-s.p.f0c2e20a.woff2"
+    ],
+    "[project]/src/app/resume/page": [
+      "static/media/u_4i0qWljRw_PfU81xCKCpdpbgZJl6XvqdnsF3_OAw-s.p.f0c2e20a.woff2"
+    ],
+    "[project]/src/app/portfolio/page": [
+      "static/media/u_4i0qWljRw_PfU81xCKCpdpbgZJl6XvqdnsF3_OAw-s.p.f0c2e20a.woff2"
+    ],
+    "[project]/src/app/contact/page": [
+      "static/media/u_4i0qWljRw_PfU81xCKCpdpbgZJl6XvqdnsF3_OAw-s.p.f0c2e20a.woff2"
+    ],
+    "[project]/src/app/about/page": [
+      "static/media/u_4i0qWljRw_PfU81xCKCpdpbgZJl6XvqdnsF3_OAw-s.p.f0c2e20a.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
