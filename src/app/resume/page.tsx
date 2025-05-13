@@ -13,7 +13,7 @@ const Resume = () => {
           <p>- APIs & Databases (MongoDB, SQL)</p>
           <p>- Version Control with Git & GitHub</p>
           <p>Download my Resume</p>
-          <a href="https://profile.indeed.com/p/jorgeg-tpe7141">Indeed Resume</a>
+          <a className="underline text-blue-300"href="https://profile.indeed.com/p/jorgeg-tpe7141">Indeed Resume</a>
         </div>
       </Transition>
     </div>
