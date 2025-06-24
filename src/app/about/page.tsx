@@ -4,9 +4,9 @@ import Transition from "@/components/Transition";
 
 const AboutMe = () => {
   return (
-    <div className="mt-auto max-w-1/2 m-auto">
+    <div className="mt-auto md:max-w-1/2 m-auto">
       <Transition>
-        <div className="aboutme-card max-w-1/2 shadow-lg shadow-gray-500/50 text-3xl p-6 rounded-lg">
+        <div className="aboutme-card md:max-w-1/2 shadow-lg shadow-gray-500/50 text-3xl p-6 rounded-lg">
           <h2 className="font-bold text-2xl card-title mb-4">About Me</h2>
           <p className="text-xl">
             After 16 years in the banking industry, I am now pursuing my passion
