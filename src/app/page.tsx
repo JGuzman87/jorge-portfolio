@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
  
-      <div className="p-4">
+      <div className="p-4 mt-auto">
         <AboutMe />
       </div>
 

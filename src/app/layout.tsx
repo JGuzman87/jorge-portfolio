@@ -25,10 +25,10 @@ export default function RootLayout({
  
   return (
     
-    <html data-theme="fantasy" lang="en">
+    <html data-theme="autumn" lang="en">
       
       <body
-        className={`${cabin.variable}  antialiased`}
+        className={`${cabin.variable}  antialiased min-h-full`}
       >
         <Nav  />
         

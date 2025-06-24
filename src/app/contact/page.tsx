@@ -49,11 +49,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col mt-auto">
-      <Transition>
-        <Form submit={handleSubmit} change={handleChange}  form={formData}/>
-      </Transition>
-    </div>
+   
+      <div className="flex flex-col mt-auto">
+         <Transition>
+        <Form submit={handleSubmit} change={handleChange} form={formData} />
+        </Transition>
+      </div>
+
   );
 };
 
